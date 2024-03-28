@@ -1,25 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
+// import CvHeader from './Components/CV/CvHeader/CvHeader';
+
+import Profile from './Components/HomeProfile/Profile';
+// import HeaderMenu from './Components/HeaderMenu';
+
+// import Describtion from './Components/Describtion';
+
+import Blog from './Components/Blog/Blog';
+
+
+import Cvdetail from './Components/CvDetail/Cvdetail';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+    
+    <Routes>
+      <Route path="/" element={<Profile />} />
+        <Route index element={<Profile />} />
+        <Route path="/blog" element={<Blog />} />
+        {/* Assuming Cvdetail is meant for CV, it's better to use a different path */}
+        <Route path="/cv" element={<Cvdetail />} />
+    </Routes>
+    
+
+
+
+
+  
+
+   
   );
 }
 

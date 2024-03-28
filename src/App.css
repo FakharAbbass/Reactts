@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.dark-theme{
+  --main-heading: white;
+  --para-clr:white;
+  --btn-bg-color:white;
+  --btn-text-clr:white;
+  --bg-clr:black;
+}
+
+.dark-theme{
+  --main-heading: white;
+  --para-clr:white;
+  --btn-bg-color:white;
+  --btn-text-clr:white;
+  --bg-clr:rgb(255, 255, 255);
+}
+

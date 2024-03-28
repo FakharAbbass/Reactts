@@ -1,0 +1,32 @@
+.h1{
+    margin: 1%;
+    font-family: monospace;
+    color: rgb(104, 103, 103);
+}
+
+  .detail1{
+   position: absolute;
+   left: 31%;
+   h1{
+    font-family: monospace;
+    color: rgb(60, 60, 247);
+    font-size: 2rem;
+   }
+   p{
+    font-family: monospace;
+    color: rgb(104, 103, 103);
+  
+  }
+  .abort{
+   
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .btnstyle{
+    display: flex;
+  }
+  }
+

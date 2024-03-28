@@ -1,0 +1,14 @@
+.ch1{
+    display: flex;
+    justify-content: center;
+  
+    p{
+        font-size: 1.5rem;
+        font-family:monospace;
+        color: rgb(134, 137, 139);
+    }
+    .colr{
+
+        color: black;
+    }
+}
